@@ -50,7 +50,7 @@
     flex-direction: column;
     align-items: center;
     border: 3px solid #05111E;
-    border-radius: 9px;
+    border-radius: 9px;       
 }
 
 .CStextoTentativas {
@@ -102,11 +102,11 @@
     justify-content: center;
     align-items: flex-start;
     background-color: #0A1B2D;
-    padding-top: 12px
-
+    padding-top: 25px;
 } 
+
 .CSjogo {
-    width: 380px;
+    width: 270px;
     padding: 9px 10px 12px;
     border: 3px solid #03101C;
     border-radius: 7px;
@@ -162,31 +162,29 @@
 .CStabuleiro {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 
 
 .CSlinha {
     display: flex;
-    gap: 5px;
+    gap: 6px;
 }
 
 .CSquadrado {
-    width: 60px;
-    height: 60px;
+    width: 44px;
+    height: 44px;
     color: white;
-    font-size: 34px;
+    font-size: 24px;
     font-weight: bold;
-    font-weight: 400;
     background-color: #000612;
     border: 2px solid #2B4056;
-    border-radius: 3px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    font-weight: 400;
 }
-
 .CSletraErrada {
     background-color: #06111F;
     border-color: #2B4056;
